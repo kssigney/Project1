@@ -1,0 +1,4 @@
+ID,Name,PNGFilename,Text,x,y,Visible
+0,Start,assets/greenbutton.png,Start Scenario,1000,650,yes
+1,Next,assets/bluebutton.png,Next,100,500,yes
+2,Restart,assets/purplebutton.png,Restart,100,650,yes

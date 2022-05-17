@@ -1,0 +1,12 @@
+StateName,The scenarios notations,PNGFilename,ClickableName,NextState
+Instructions,Introduction ,assets/theme.png,Start,Backstory
+Backstory,Description of Technology,assets/backstory.png,Next,Status
+Status,First detection development of mold in air circulation,assets/status.png,Next,Warning
+Status,"A day after notification reminder, detection development of mold in air circulation",assets/status.png,Next,Warning
+Status,24 Hours before intoxication due to mold in air circulation,assets/status.png,Next,Warning
+Warning,Notifies the owner of : First detection development of mold in air circulation,assets/warning.png,Restart,Recovering
+Warning,"Notifies the owner of : A day after notification reminder, detection development of mold in air circulation",assets/warning.png,Restart,Status
+Warning,Notifies the owner of : 24 Hours before intoxication due to mold in air circulation,assets/warning.png,Next,Status
+Status,Detects mold the product that is now too intoxicating and can not eat,assets/status.png,Next,Alert
+Alert,Notifies the owner of : Detects mold the product that is now too intoxicating and can not eat,assets/alert.png,Restart,Status
+Status,"Mold detection is being checked through air circulation, everything is good",assets/status.png,Restart,Stand by
